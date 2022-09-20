@@ -21,14 +21,9 @@ h1, h3, h5 {
 }
 
 /* Header */
-header h1 {
-    font-size: 35px;
-    margin-bottom: 40px;
-}
-
 .tracking-in-expand-fwd {
     margin-top: 20px;
-    font-size: 80px;
+    font-size: 68px;
 	-webkit-animation: tracking-in-expand-fwd 1.5s both;
 	animation: tracking-in-expand-fwd 1.5s both;
 }
@@ -37,7 +32,7 @@ header h1 {
     0% {
       letter-spacing: -0.5em;
       -webkit-transform: translateZ(-700px);
-              transform: translateZ(-700px);
+      transform: translateZ(-700px);
       opacity: 0;
     }
     40% {
@@ -45,7 +40,7 @@ header h1 {
     }
     100% {
       -webkit-transform: translateZ(0);
-              transform: translateZ(0);
+      transform: translateZ(0);
       opacity: 1;
     }
 }
@@ -53,7 +48,7 @@ header h1 {
     0% {
       letter-spacing: -0.5em;
       -webkit-transform: translateZ(-700px);
-              transform: translateZ(-700px);
+      transform: translateZ(-700px);
       opacity: 0;
     }
     40% {
@@ -61,7 +56,7 @@ header h1 {
     }
     100% {
       -webkit-transform: translateZ(0);
-              transform: translateZ(0);
+      transform: translateZ(0);
       opacity: 1;
     }
 }
@@ -69,11 +64,11 @@ header h1 {
 /* Main */
 /* About me section */
 .about-fade {
-    animation: fadeAbout 3s;
+    animation: fadeAbout 4s;
 }
 @keyframes fadeAbout {
     0% { opacity: 0; }
-    25% { opacity: 0; }
+    50% { opacity: 0; }
     100% { opacity: 1; }
 }
 
@@ -155,8 +150,8 @@ header h1 {
 }
 
 .img-demian {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border-radius: 5px;
     margin: auto;
