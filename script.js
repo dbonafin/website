@@ -47,7 +47,7 @@ var app = new Vue(
                 },
                 {
                     image: './img/wordpress-screen.png',
-                    text: 'Riproduzione di CMS: utilizzati Vue.js, Vue Router & Laravel, struttura software MVC. Pagina pubblica che può visualizzare i post, pagina admin (laravel auth) che può creare, modificare ed eliminare i contenuti. Librerie usate Fakerphp & Carbon.',
+                    text: 'Riproduzione di CMS (Wordpress): utilizzati Vue.js, Vue Router & Laravel, struttura MVC. Il guest può visualizzare i post, l\'admin può creare, modificare ed eliminare i contenuti.',
                 },
             ],
         },

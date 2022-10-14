@@ -20,6 +20,10 @@ h1, h3, h5 {
     font-weight: 700 !important;
 }
 
+hr {
+    margin: 0 !important;
+}
+
 /* Header */
 .tracking-in-expand-fwd {
     margin-top: 20px;
@@ -64,7 +68,7 @@ h1, h3, h5 {
 /* Main */
 /* About me section */
 .about-fade {
-    animation: fadeAbout 4s;
+    animation: fadeAbout 3.5s;
 }
 @keyframes fadeAbout {
     0% { opacity: 0; }
@@ -82,36 +86,7 @@ h1, h3, h5 {
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
-  }
-  
-  .card1::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -20px;
-    right: -20px;
-    background: #DCEFF9;
-    height: 70px;
-    width: 70px;
-    border-radius: 70px;
-    transform: scale(1);
-    transform-origin: 26% 26%;
-    transition: transform 1.8s linear;
-  }
-  
-  .card1:hover::before  {
-    transform: scale(62);
-  }
-  
-  .card1:hover h5 { 
-    transition: all 0.8s ease-out;
-    color: #374B81;
-  }
-  
-  .card1:hover p {
-    transition: all 0.8s ease-out;
-    color: #374B81;
-  }
+}
 
 .card.card-intro {
     border: 0;
@@ -178,6 +153,22 @@ h1, h3, h5 {
     display: block;
 }
 
+.flickity-page-dots {
+    bottom: -10px !important;
+}
+
+.flickity-page-dots .dot {
+    width: 12px !important;
+    height: 12px !important;
+    opacity: 1 !important;
+    background: transparent !important;
+    border: 2px solid white !important;
+}
+
+.flickity-page-dots .dot.is-selected {
+    background: white !important;
+}
+
 /* Languages section */
 .list-group-item.text-center {
     background-color: #374B81;
@@ -191,7 +182,7 @@ h1, h3, h5 {
 
 .card.stack-card {
     margin: auto;
-    color: white;
+    color: #DCEFF9;
     border: 1px solid #374B81;
     background-color: #374B81;
     box-shadow: 0 2px 4px 0 rgb(136 144 195 / 20%), 0 5px 10px 0 #4696c1;
@@ -205,14 +196,80 @@ h1, h3, h5 {
 .stack-icon svg {
     width: 60px;
     vertical-align: middle;
-    color: white;
+    color: #DCEFF9;
     filter: invert(1);
+}
+
+/* Contacts section */
+.link-badge {
+    margin-bottom: 20px;
+    padding: 0;
+    border: 0;
+    font-size: 60% !important;
+    vertical-align: baseline;
+    background: #374B81 ;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.badge-header {
+    padding: 12px 16px;
+    background-color: #38434f;
+    border-radius: 8px;
+}
+
+.badge-body {
+    padding: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #DCEFF9 !important;
+}
+
+.badge-body a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid #DCEFF9;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.badge-body img {
+    margin: 12px 0 8px;
+    width: 75px;
+    height: 75px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-clip: content-box;
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 49.9%;
+}
+
+iframe {
+    border-radius: 6px;
+    width: max-content;
 }
 
 .mail-contact,a {
     text-decoration: none;
     color: inherit;
     font-style: italic;
+}
+
+.email-contact {
+    padding: 20px 0;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+.btn-sub {
+    color: #DCEFF9 !important;
+    background-color: #374B81 !important;
 }
 
 /* Footer */
@@ -235,8 +292,6 @@ footer {
     color: #DCEFF9;
 }
 
-/* .copertina {
-    text-shadow: 1px 2px  #4696c1 !important;
-} */
-
-  
+.fa-spotify {
+    font-size: 38px;
+}
