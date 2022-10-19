@@ -47,7 +47,11 @@ var app = new Vue(
                 },
                 {
                     image: './img/wordpress-screen.png',
-                    text: 'Riproduzione di CMS (Wordpress): utilizzati Vue.js, Vue Router & Laravel, struttura MVC. Il guest può visualizzare i post, l\'admin può creare, modificare ed eliminare i contenuti.',
+                    text: 'Riproduzione di Wordpress: utilizzati Vue.js, Vue Router & Laravel, struttura MVC. L\'utente non registrato può visualizzare la home e i post nel dettaglio, l\'admin può creare, modificare ed eliminare i contenuti.',
+                },
+                {
+                    image: './img/stat.png',
+                    text: 'Riproduzione di Deliveroo: utilizzati Vue.js, Vue Router, Laravel, Braintree, Chartjs, Mailtrap, Bootstrap, Sass, Trello. Webapp responsive che permette agli utenti interessati di acquistare i piatti desiderati effettuando un pagamento. Area dedicata ai ristoratori che possono aggiungere e togliere piatti dal menù del proprio ristorante.',
                 },
             ],
         },
