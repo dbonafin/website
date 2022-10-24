@@ -20,44 +20,75 @@
 
     <div id="root">
 
-        <!-- Header -->
-        <header style="margin-bottom: 50px;">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="tracking-in-expand-fwd text-center"> Benvenuto </h1>
+        <!-- Introduction -->
+        <div class="container d-flex flex-wrap flex-md-nowrap align-items-baseline" style="margin-bottom: 100px;">
+            <div class="intro-container mx-auto">
+                <div class="box">
+                    
+                    <!-- Name and roles -->
+                    <div class="title">
+                        <span class="block"></span>
+                        <h1> Ciao, <br> sono Demian <span></span></h1>
+                    </div>
+
+                    <div class="content">
+                        <div class="content__container about-fade">
+    
+                            <p class="content__container__text">
+                                Developer
+                            </p>
+                              
+                            <ul class="content__container__list" style="padding-left: 0;color: #374B81">
+                                <li class="content__container__list__item"> Frontend </li>
+                                <li class="content__container__list__item"> Backend </li>
+                                <li class="content__container__list__item"> Website </li>
+                                <li class="content__container__list__item"> Webapp </li>
+                            </ul>
+    
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
+
+            <!-- Picture dbonafin -->
+            <div class="about-fade mx-auto">
+                <div class="row">
+                    <div class="col text-center">
+                        <img class="preview-img" src="img/fotoo.jpg" alt="certficate">
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="card quote-block">
+                            <div class="card-body quote-block">
+                              <blockquote class="blockquote blockquote-custom">
+                                <div class="blockquote-custom-icon shadow-1-strong">
+                                    <i class="fa-sharp fa-solid fa-quote-left"></i>                                        </div>
+                                    <p class="mb-0 mt-2 font-italic text-center fst-italic">
+                                        "Se sei forte sali"
+                                    </p>
+                              </blockquote>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <main>
             
             <!-- About me section -->
-            <section class="about-section about-fade">
+            <section data-aos="fade-up" data-aos-duration="4000" data-aos-delay="500">
 
                 <div class="container" style="margin-bottom: 50px;">
                     <div class="d-flex flex-wrap justify-content-center">
                         
                         <!-- Introduction card -->
                         <div class="card card-quote mx-auto">
-                            <img src="./img/foto-sito.jpg" class="img-demian" alt="dbonafin">
+                            <img src="img/certificate.png" class="img-certificate" alt="dbonafin">
 
-                            <a style="color: #DCEFF9; font-size: 20px; margin: 20px 0;" href="https://www.credential.net/39d3b60d-d753-4c22-8803-da246d51fac8#gs.fjxzps"> Certificazione Web Developer Full Stack </a>
+                            <!-- <a style="color: #DCEFF9; font-size: 20px; margin: 20px 0;" href="https://www.credential.net/39d3b60d-d753-4c22-8803-da246d51fac8#gs.fjxzps"> Certificazione Web Dev </a> -->
                             
-                            <div class="card-body">
-                                <div class="card quote-block">
-                                    <div class="card-body quote-block">
-                                      <blockquote class="blockquote blockquote-custom">
-                                        <div class="blockquote-custom-icon shadow-1-strong">
-                                            <i class="fa-sharp fa-solid fa-quote-left"></i>                                        </div>
-                                            <p class="mb-0 mt-2 font-italic text-center fst-italic">
-                                                "Se sei forte sali"
-                                            </p>
-                                      </blockquote>
-                                    </div>
-                                  </div>
-                            </div>
+                           
                         </div>
 
                         <!-- About me text -->
