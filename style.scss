@@ -50,7 +50,7 @@ hr {
       .block {
         width: 0%;
         height: 110px;
-        background: #DCEFF9;
+        background: #374B81;
         position: absolute;
         animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
         display: flex;
@@ -63,7 +63,7 @@ hr {
         -webkit-animation: mainFadeIn 2s forwards;
         -o-animation: mainFadeIn 2s forwards;
         animation: mainFadeIn 2s forwards;
-        animation-delay: 1.6s;
+        animation-delay: 1.8s;
         opacity: 0;
         display: flex;
         align-items: baseline;
@@ -108,10 +108,8 @@ hr {
       }
 
       p {
-        animation: secFadeIn 2s forwards;
-        animation-delay: 3.2s;
         opacity: 0;
-         font-weight: 400;
+        font-weight: 400;
         font-family: 'Lato';
         color: #DCEFF9;
         font-size: 16px;
@@ -120,7 +118,7 @@ hr {
       }
     }
   }
-  // Slider developer 
+  // Word slider developer 
 .content {
   width: 330px;
   position: inherit;
@@ -153,7 +151,6 @@ hr {
       margin-top: 0;
       text-align: left;
       list-style: none;
-      
       -webkit-animation-name: change;
       -webkit-animation-duration: 10s;
       -webkit-animation-iteration-count: infinite;
@@ -244,23 +241,6 @@ hr {
   }
 }
 
-@keyframes secBlock {
-  0% {
-    width: 0%;
-    left: 0;
-
-  }
-  50% {
-    width: 100%;
-    left: 0;
-
-  }
-  100% {
-    width: 0;
-    left: 100%;
-  }
-}
-
 @keyframes mainFadeIn {
   0% {
     opacity: 0;
@@ -269,7 +249,6 @@ hr {
     opacity: 1;
   }
 }
-
 
 @keyframes popIn {
   0% {
@@ -304,15 +283,6 @@ hr {
     border: 0px solid #DCEFF9;
     bottom: 13px;
 
-  }
-}
-
-@keyframes secFadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.5;
   }
 }
 

@@ -49,7 +49,7 @@ hr {
 .intro-container .box .title .block {
   width: 0%;
   height: 110px;
-  background: #DCEFF9;
+  background: #374B81;
   position: absolute;
   animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   display: flex;
@@ -61,7 +61,7 @@ hr {
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
   animation: mainFadeIn 2s forwards;
-  animation-delay: 1.6s;
+  animation-delay: 1.8s;
   opacity: 0;
   display: flex;
   align-items: baseline;
@@ -83,34 +83,7 @@ hr {
   bottom: 13px;
   right: -12px;
 }
-.intro-container .box .role {
-  width: 400px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  height: 30px;
-  margin-top: 10px;
-}
-.intro-container .box .role .block {
-  width: 0%;
-  height: inherit;
-  background: #374B81;
-  position: absolute;
-  animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
-  animation-delay: 2s;
-  display: flex;
-}
-.intro-container .box .role p {
-  animation: secFadeIn 2s forwards;
-  animation-delay: 3.2s;
-  opacity: 0;
-  font-weight: 400;
-  font-family: "Lato";
-  color: #DCEFF9;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
+
 .intro-container .content {
   width: 330px;
   position: inherit;
