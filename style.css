@@ -5,10 +5,10 @@
 
 body {
   color: #DCEFF9 !important;
-  background: #642B73; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #C6426E, #642B73); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: "Raleway", sans-serif !important;
+  background: #209999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #209999, #000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(circle farthest-corner at 50% 50%, #209999, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Raleway', sans-serif !important;
   overflow-x: hidden;
 }
 
@@ -49,7 +49,7 @@ hr {
 .intro-container .box .title .block {
   width: 0%;
   height: 110px;
-  background: #374B81;
+  background: transparent;
   position: absolute;
   animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   display: flex;
@@ -365,23 +365,23 @@ hr {
 }
 
 .card.quote-block {
-  background-color: #374B81;
+  background-color: transparent;
   width: 260px;
   margin: 0 auto;
 }
 
 .card-body.quote-block {
-  background-color: #374B81;
+  background-color: transparent;
 }
 
 .card-body.quote-block p {
-  margin: 32px 0;
+  margin-top: 30px;
 }
 
 /* About me left card - image & quote */
 .blockquote-custom-icon {
   background-color: #DCEFF9;
-  color: #374B81;
+  color: transparent;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -440,21 +440,24 @@ hr {
 
 /* Languages section */
 .list-group-item.text-center {
-  background-color: #374B81;
+  background-color: transparent;
   color: #DCEFF9;
 }
 
 .tech-stack {
-  color: #374B81;
+  color: transparent;
   font-size: 22px;
 }
 
 .card.stack-card {
   margin: auto;
   color: #DCEFF9;
-  border: 1px solid #374B81;
-  background-color: #374B81;
-  box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2), 0 5px 10px 0 #4696c1;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.card.stack-card .card-footer {
+  display: none;
 }
 
 .stack-icon {
@@ -465,7 +468,7 @@ hr {
 .stack-icon svg {
   width: 60px;
   vertical-align: middle;
-  color: #DCEFF9;
+  color: #673ab7;
   filter: invert(1);
 }
 
@@ -491,13 +494,13 @@ form div {
 
 .btn-sub {
   color: #DCEFF9 !important;
-  background-color: #374B81 !important;
+  background-color: transparent !important;
 }
 
 /* Footer */
 footer {
   padding: 20px 0;
-  background-color: #374B81 !important;
+  background-color: transparent !important;
   color: #DCEFF9;
   position: relative;
   width: 100%;

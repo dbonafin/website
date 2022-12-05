@@ -5,9 +5,9 @@
 
 body {
   color: #DCEFF9 !important;
-  background: #642B73;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #209999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #209999, #000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(circle farthest-corner at 50% 50%, #209999, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Raleway', sans-serif !important;
   overflow-x: hidden;
 }
@@ -50,7 +50,7 @@ hr {
       .block {
         width: 0%;
         height: 110px;
-        background: #374B81;
+        background: #673ab7;
         position: absolute;
         animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
         display: flex;
@@ -100,7 +100,7 @@ hr {
       .block {
         width: 0%;
         height: inherit;
-        background: #374B81;
+        background: #673ab7;
         position: absolute;
         animation: secBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
         animation-delay: 2s;
@@ -326,13 +326,13 @@ hr {
 }
 
 .card.quote-block {
-  background-color: #374B81;
+  background-color: #673ab7;
   width: 260px;
   margin: 0 auto;
 }
 
 .card-body.quote-block {
-  background-color: #374B81;
+  background-color: #673ab7;
 }
 
 .card-body.quote-block p {
@@ -342,7 +342,7 @@ hr {
 /* About me left card - image & quote */
 .blockquote-custom-icon {
   background-color: #DCEFF9;
-  color: #374B81;
+  color: #673ab7;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -401,20 +401,20 @@ hr {
 
 /* Languages section */
 .list-group-item.text-center {
-  background-color: #374B81;
+  background-color: #673ab7;
   color: #DCEFF9;
 }
 
 .tech-stack {
-  color: #374B81;
+  color: #673ab7;
   font-size: 22px;
 }
 
 .card.stack-card {
   margin: auto;
   color: #DCEFF9;
-  border: 1px solid #374B81;
-  background-color: #374B81;
+  border: 1px solid #673ab7;
+  background-color: #673ab7;
   box-shadow: 0 2px 4px 0 rgb(136 144 195 / 20%), 0 5px 10px 0 #4696c1;
 }
 
@@ -452,13 +452,13 @@ form div {
 
 .btn-sub {
   color: #DCEFF9 !important;
-  background-color: #374B81 !important;
+  background-color: #673ab7 !important;
 }
 
 /* Footer */
 footer {
   padding: 20px 0;
-  background-color: #374B81 !important;
+  background-color: #673ab7 !important;
   color: #DCEFF9;
   position: relative;
   width: 100%;
